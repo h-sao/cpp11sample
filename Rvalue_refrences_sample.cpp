@@ -1,5 +1,6 @@
 // cpp00.cpp : コンソール アプリケーションのエントリ ポイントを定義します。
 //
+// Chacked by Visual Studio 2013 Update 4
 
 #include "stdafx.h"
 #include <iostream>
