@@ -5,7 +5,7 @@
 #include "stdafx.h"
 #include <iostream>
 
-struct MyClass {
+struct X {
 	void f()& {
 		std::cout << "L value" << std::endl;
 	}
@@ -16,10 +16,10 @@ struct MyClass {
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	MyClass m;
+	X m;
 
 	std::wcout << "----- ref-qualifiers sample" << std::endl;
-	m.f();				// L value
+	m.f();			// L value
 	std::move(m).f();	// R value
 
 	return 0;
